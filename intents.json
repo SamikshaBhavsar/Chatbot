@@ -1,0 +1,141 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello"],
+         "responses": ["Hello, welcome to delhi tourist bot.\nHow can I help you help you with? \n1. Suggest tourist spots in delhi \n2. Suggest good cafes and restaurants \n3. Suggest hotels or places to stay"],
+         "context": [""]
+        },
+        {"tag": "food",
+                "patterns": ["i want to know about cafes and restaurants","suggest food", "suggest me good cafes and restraunts", "suggest me place to eat"],
+                "responses": ["Cool! Here is a list of amazing cafes where you can enjoy delicious food. Choose one cafe from the below list to know more details about it. \n1. Hauz Khas Social \n2. Hard Rock Cafe, Saket  \n3. Delhi Heights, Chanakyapuri  \n4. Nukkad, SDA \n5. Raasta, Hauz Khas Village."],
+                "context": [""]
+               },
+        {"tag": "Hauz Khas Social",
+                "patterns": ["tell me about Hauz Khas Social", "Hauz Khas Social"],
+                "responses": ["Hauz Khas Social - They have earned their place as one of best cafe in hauz khas owing to their world class acts, super consistent quality, tempting cocktails, fabulous music, and the most wonderful ambience that will make you wanna stay here forever.\nLocation: 9-A & 12, Hauz Khas Village, New Delhi \nHighlights: Live Music, Live Sports Screening, Outdoor Seating, Cuisines – Continental, American, Asian, North Indian \nCost For Two: 1,300 \nTimings: 11 AM to 1 AM \nZomato Rating: 4.4 \nMust Try Cuisine: Coffee, Lasagna, Salad, Mocktails \nThings To Do Nearby: Visit the Hauz Khas Village and Deer Park"],
+                "context": [""]
+               }, 
+        {"tag": "hard rock cafe",
+                "patterns": ["Tell me about Hard rock cafe","hard rock cafe"],
+                "responses": ["Hard Rock Cafe, Saket - Hard Rock Cafe is where one heads when in the mood for some smashing, soul-satisfying music, limitless booze, and tasty burgers! \nLocation: M-110, 1st Floor, DLF Place Mall, Saket, New Delhi \nHighlights: Full Bar, Live Music, Buffet, Cuisines – Mediterranean, Mexican, North Indian, American \nCost For Two: 2,500 \nTimings: Noon to 1 AM \nZomato Rating:4.2 \nMust Try Cuisine: Burgers, Cocktails, Onion Rings, Mocktails \nThings To Do Nearby: Go shopping in SDA Market"],
+                "context": [""]
+               },
+       
+       {"tag": "Delhi Heights, Chanakyapuri",
+                "patterns": ["tell me about Delhi heights, chanakyapuri","Delhi Heights, Chanakyapuri"],
+                "responses": ["Delhi Heights, Chanakyapuri - One of the best late night cafes in Delhi, Café Delhi Heights serves sinfully delicious waffles that are worth to die for. \nLocation: 9, Sardar Patel Marg, Diplomatic Enclave, Chanakyapuri, New Delhi\nHighlights: Waffles, Outdoor Seating, Quirky Decor, Fusion Cuisine – Asian, Modern Indian, Continental\nCost For Two: 2,000\nTimings: 7:30 AM to 12 Midnight\nZomato Rating: 3.9 \nMust Try Cuisine: Burgers, Juicy Lucy Burger, Pasta, Pizza, Cocktails, Coffee, Mocktails \nThings To Do Nearby: Shopping in Connaught Place"],
+                "context": [""]
+               },
+       
+       {"tag": "Nukkad SDA",
+                "patterns": ["tell me about Nukkad, SDA","Nukkad SDA"],
+                "responses": ["Nukkad, SDA - This place will always delight you with its quaint, rustic theme, twinkling fairy lights, dim lighting, and of course, the food. \nLocation: C-23-24, SDA Market, SDA, New Delhi \nHighlights: Full Bar, Lovely Ambience, Prompt Service, Cuisine – Chinese, North Indian, Italian\nCost For Two: 1,200\nTimings: 11:30 AM to 12:30 AM\nZomato Rating: 3.8\nMust Try Cuisine: Momos, Pasta, Pav Bhaji, Cocktails\nThings To Do Nearby: Hang out with friends and family and try out some more delicious food"],
+                "context": [""]
+               },
+       
+       {"tag": "Raasta",
+                "patterns": ["tell me about Raasta, Hauz khas village cafe","Raasta"],
+                "responses": [" Raasta, Hauz Khas Village - Wanna show off your singing talents? Raasta is amongst the best cafe in hauz khas in Delhi for a karaoke night. \nLocation: A-2/A, 2nd Floor, Aurobindo Marg, Green Park, New Delhi\nHighlights: Full Bar, Live Music, Cocktails, Karaoke, Rooftop, Cuisines – Continental, Italian\nCost For Two: 2,000\nTimings: 12 Noon to 12:30 AM\nZomato Rating: 4.5\nMust Try Cuisine: Corn Pastellos, Falafels, Afghani Murg, Panko Prawns, Fettuccine Pasta\nThings To Do Nearby: Visit Hauz Khas Fort and Char Minar"],
+                "context": [""]
+               },
+
+        
+        {"tag": "choose places",
+                "patterns": ["suggest me tourist spots in delhi ","i want to know about tourists places to visit in delhi"],
+                "responses": ["Amazing! Here is a list of tourist places in delhi where you should definately visit. Choose any place from the list to know more about it. \n1.Akshardham Temple, Delhi \n2.Red Fort, Delhi NCR \n3.India Gate, Delhi \n4.Hauz Khas, Delhi \n5.Kingdom of Dreams, Gurgaon"],
+                "context": [""]
+               },
+
+        {"tag": "Akshardham Temple" ,
+        "patterns": ["tell me about Akshardham Temple","Akshardham Temple" ],
+        "responses": ["Akshardham Temple- Akshardham Temple, Delhi-Dedicated to Bhagwan Swaminarayan, Akshardham Temple exhibits the ancient culture of India. The temple complex maintains a step-well styled courtyard and 60 acres of lush lawns\nTimings: 09:30 am to 06:30 pm\nEntry Fee: INR 170 (Adults); INR 100 (Children)\nNearest Metro Station: Akshardham, New Delhi"],
+        "context": [""]
+               },
+
+        {"tag": "Red Fort",
+        "patterns": ["tell me about Red Fort","Red Fort"],
+        "responses": ["Red Fort, Delhi NCR- Constructed in 1639 by the Mughals, Red Fort gets its name from its massive red-coloured sandstone walls. Set in Old Delhi, the octagonal-shaped fort is spread over an area of 254 acres. The planning and designing of the fort is a fusion of Mughal, Persian, Hindu, and Timurid traditions. \nTimings: 09:30 am to 04:30 pm (closed on Mondays)\nEntry Fee: INR 10 (Indian citizens) and INR 150 (foreign nationals)\nNearest Metro Station: Chandni Chowk, New Delhi"],
+        "context": [""]
+               },
+
+        {"tag": "India Gate",
+        "patterns": ["tell me about India Gate","India Gate"],
+        "responses": ["India Gate, Delhi-India Gate symbolises the sacrifice of 70,000 Indian soldiers who lost their lives battling against the foreign army during the World War I. Designed by Edwin Lutyens, it features the undying Amar Jawan Jyoti or the Flame of the Immortal Soldier which was added later to honour Indian martyred soldiers in the Indo-Pak War.\nTimings: 24 hours a day, seven days a week\nNearest Metro Station: Central Secretariat, New Delhi"],
+        "context": [""]
+                },
+
+        {"tag": "Hauz Khas",
+        "patterns": ["tell me about Hauz Khas","Hauz Khas"],
+        "responses": ["Hauz Khas, Delhi-If you are a party animal, then definitely head to Hauz Khas, which is popular for its swanky clubs, quirky cafes, and fine-dine restaurants. Earlier known as Hauz-e-Alai, this affluent neighbourhood in South Delhi holds a historical importance with remnants of Mughal architecture.\nTimings: Most of the restaurants and pubs remain open till midnight\nNearest Metro Station: Hauz Khas, New Delhi"],
+        "context": [""]
+                },
+
+        {"tag": "Kingdom of Dreams",
+        "patterns": ["tell me about Kingdom of Dreams","Kingdom of Dreams"],
+        "responses": ["Kingdom of Dreams-Kingdom of Dreams, Gurgaon-Situated near the Leisure Valley Park in Gurugram, Kingdom of Dreams is an ultimate entertainment destination. It is designed with the intent of displaying the rich Indian culture by means of a majestic structure.\nTimings: 12:30 pm to 12:00 am on weekdays and 12:00 pm to 12:00 am on weekends\nEntry Fee: INR 1099 onwards (On Weekdays); INR 1,199 (On Weekends)\nNearest Metro Station: IFFCO Chowk, Gurugram"],
+        "context": [""]
+                },
+        
+        
+
+        {"tag": "choose hotels",
+        "patterns": ["suggest me places to stay", "i want to know about hotels to stay"],
+        "responses": ["Awesome! Here is a list of famous hotels where you can stay in Delhi. Choose any hotel from the list to know more about it. \n1.The Taj palace \n2.The Leela palace \n3.Shangri-La's - Eros Hotel, New Delhi \n4.Holiday Inn New Delhi International Airport \n5.Radisson Blu Plaza Delhi Airport "],
+         "context": [""]
+                       },
+        
+        {"tag": "The Taj palace",
+                        "patterns": ["tell me about The Taj palace","The Taj palace"],
+                        "responses": ["The Taj palace-Spread over six acres of lush gardens, offering an outdoor swimming pool and panoramic city views, Taj Palace New Delhi is located in New Delhi. WiFi access is available.Each room here will provide you with air conditioning and a minibar. There is also an electric kettle. Featuring a shower, private bathroom also comes with a bath and a hairdryer.At Taj Palace New Delhi you will find a fitness centre. Other facilities offered at the property include meeting facilities, a ticket service and a tour desk. \nOther Facilities : \n* Free parking \n* Free WiFi \n* Food & Drink \n* Airport shuttle"],
+                        "context": [""]
+                       },
+               
+        {"tag": "The Leela palace",
+                        "patterns": ["tell me about The Leela palace","The Leela palace"],
+                        "responses": ["The Leela palace- Located in New Delhi's Diplomatic Enclave, The Leela Palace New Delhi is a blend of Lutyen's architecture and the royal Indian culture. A pampering spa, 4 dining options and free parking are available. It is 10 km from popular landmarks such as Red Fort, Lotus Temple and shopping hubs such as Chandni Chowk and Connaught Place and 2.5 km from Embassy of the United States of America.Elegantly decorated, air-conditioned rooms feature a high-definition flat-screen TV with a DVD player, floor-to-ceiling windows and wooden furnishings. A 2nd flat-screen TV in the bathroom is a mirror when turned off. \nOther Facilities \n* Free parking \n* Free WiFi \n* Food & Drink \n* Car hire"],
+                        "context": [""]
+                       },
+               
+        {"tag": "Shangri-La's - Eros Hotel",
+                        "patterns": ["tell me about Shangri-La's - Eros Hotel", "Shangri-La's - Eros Hotel"],
+                        "responses": ["Shangri-La's - Eros Hotel, New Delhi - The recently refurbished Shangri – La’s – Eros Hotel, New Delhi offers 5 dining options and an outdoor swimming pool. India Gate is 2.5 km and Jantar Mantar is 1.3 km away. Free WiFi is available in the entire property.The well designed rooms feature views of Lutyens Delhi. All rooms are equipped with a bathtub and certain rooms feature a DVD player. When it comes to culinary offerings, the hotel definitely leaves you spoiled for choice. Savour the mystical Yunnan cuisine along with Cantonese and Sichuan at the Shangri-La brand’s 39th signature restaurant Shang Palace \nOther Facilities \n* Free parking \n* Free WiFi \n* Food & Drink \n* Airport shuttle"],
+                        "context": [""]
+                       },
+               
+        {"tag": "Holiday Inn New Delhi International Airport",
+                        "patterns": ["tell me about Holiday Inn New Delhi International Airport","Holiday Inn New Delhi International Airport"],
+                        "responses": ["Holiday Inn New Delhi International Airport - Offering an outdoor swimming pool, a fitness centre and a spa and wellness centre, Holiday Inn New Delhi International Airport is located in New Delhi. Free WiFi access is available.The property is 3 km from Indira Gandhi International Airport, 7 km from the Business District of Gurgaon and 18 km from New Delhi Railway Station. The India Gate is 16 km while Red Fort is 22 km.Rooms here will provide you with a flat-screen TV, air conditioning and an iPod dock. Featuring a shower, private bathrooms also come with a hairdryer and free premium Biotique toiletries. Extras include a seating area.\nOther Facilities \n* Free WiFi \n* Food & Drink \n* Car hire \n* Secured parking"],
+                        "context": [""]
+                       },
+               
+        {"tag": "Radisson Blu Plaza",
+                        "patterns": ["tell me about Radisson Blu Plaza","Radisson Blu Plaza"],
+                        "responses": ["Radisson Blu Plaza Delhi Airport - Located only 3 km away from Indira Gandhi International Airport along the Delhi-Gurgaon Expressway, Radisson Blu Plaza Delhi features luxurious and modern rooms with free WiFi. It features an outdoor pool, spa, fitness centre and 5 food and beverage options.Featuring designer silk upholstery and linens, rooms at the Radisson Blu Plaza Delhi are equipped with a cable TV, minibar and a private bathroom with a rain shower. DVD players are available upon request. \nOther Facilities \n* Free parking \n* Free WiFi \n* Food & Drink \n* Airport shuttle"],
+                        "context": [""]
+                       },
+               
+        
+       {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help! Is there anything else i can help you with?"],
+         "context": [""]
+        },
+        {"tag": "no",
+        "patterns": ["no", "no i dont need anything else", "no, am good"],
+        "responses": ["Okay, feel free to contact us in case of any query. This is our helpline number : \n9943276350"],
+        "context": [""]
+       },
+
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        }
+        
+       
+   ]
+}
